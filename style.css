@@ -1,0 +1,190 @@
+/* Professional Fintech Theme Styles */
+
+/* Dark Background */
+body {
+    background-color: #343a40;
+}
+
+/* Enhanced Card Styling */
+.card {
+    padding: 2rem;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+/* Enhanced Card Headings */
+.card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Professional Green Primary Button */
+.btn-primary {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-primary:hover {
+    background-color: #157347;
+    border-color: #157347;
+}
+
+/* Dark Button for Admin Pages */
+.btn-dark {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-dark:hover {
+    background-color: #1a1d20;
+    border-color: #1a1d20;
+}
+
+/* Enhanced Form Styling */
+.input-group-text {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+/* Professional Alert Styling */
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeaa7;
+    color: #856404;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Enhanced Table Styling */
+.table {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Professional Link Styling */
+.btn-link {
+    color: #198754;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #157347;
+    text-decoration: underline;
+}
+
+/* Enhanced Navigation */
+.nav-btn {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 500;
+}
+
+.nav-btn.active {
+    background-color: #047857;
+    color: white;
+    box-shadow: 0 4px 14px 0 rgba(4, 120, 87, 0.25);
+}
+
+/* Time Range Buttons */
+.time-btn {
+    cursor: pointer;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: 1px solid #d6d3d1;
+}
+
+.time-btn.active {
+    background-color: #57534e;
+    color: white;
+    border-color: #57534e;
+}
+
+/* Skeleton Loading Animation */
+.skeleton {
+    background-color: #e7e5e4;
+    border-radius: 0.5rem;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    50% { opacity: .5; }
+}
+
+/* Enhanced Footer */
+footer {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Professional Text Colors */
+.text-secondary {
+    color: #6c757d !important;
+}
+
+/* Enhanced Modal Styling */
+.modal-content {
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+/* Professional List Group Styling */
+.list-group-item {
+    border-color: #dee2e6;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.list-group-item:hover {
+    background-color: rgba(25, 135, 84, 0.05);
+}
+
+/* Enhanced Input Group Styling */
+.input-group-text {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    color: #6c757d;
+}
+
+/* Professional Icon Styling */
+.bi {
+    vertical-align: middle;
+}
+
+/* Enhanced Container Styling */
+.container {
+    max-width: 1200px;
+}
+
+/* Professional Card Hover Effects */
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ 

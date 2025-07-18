@@ -1,0 +1,1 @@
+<?php echo password_hash('non123', PASSWORD_DEFAULT); ?> 
